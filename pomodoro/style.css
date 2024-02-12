@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+body {
+    background-color: rgb(186, 73, 73);
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.navegation {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5%;
+    border-bottom: 0.2px solid rgb(83, 79, 79); 
+    padding-bottom: 1%;
+}
+
+nav {
+    display: flex;
+    gap: 2.2rem;
+}
+
+.text_header_nav {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 500;
+}
+
+.text_header {
+    font-size: 2rem;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 500;
+    
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+section p {
+    font-size: 1rem;
+}
+
+main {
+    display: flex;
+    padding-top: 6%;
+    justify-content: center;
+    height: 100vh;
+}
+
+.button_cronometro {
+   display: flex;
+}
+
+.cronometro {
+    font-size: 5rem;
+}
+
+.button_cronometro button {
+    background-color: white;
+    border-radius: 0.8rem;
+    border-color: rgba(71, 71, 71, 0.055);
+    color:rgb(186, 73, 73); 
+    font-size: 1.5rem;
+    width: 120px;
+    height: 40px;
+    
+}
+
+.button_cronometro {
+    gap: 4%;
+}
+
+@media (max-width: 776px) {
+    .navegation {
+     width: 60%;
+  }
+    }
+
+@media (max-width: 564px) {
+        .navegation {
+         width: 80%;
+      }
+        }
+
+@media (max-width: 412px) {
+        .navegation, .text_header, .text_header_nav {
+            width: 85%;
+            font-size: 0.8rem;
+          }
+
+          .text_header_nav {
+            width: 60px;
+          }
+            }
+
+@media (max-width: 428px) {
+        section {
+         width: 280px;
+         height: 200px;
+        }
+                    }
+
